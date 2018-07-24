@@ -1,6 +1,14 @@
+* {
+  border: 1px solid green;
+}
 body {
+  box-sizing: border-box;
   display:grid;
   grid-template-columns: 1fr 6fr;
+}
+nav {
+  display:grid;
+  grid-template-rows: 120px 2fr 2fr 2fr
 }
 img {
   width:50px;
