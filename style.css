@@ -23,8 +23,19 @@ h3 {
   text-align:center;
   font-size: 15px;
 }
+.main-nav, .admin-nav, .categories-nav {
+  display: grid;
+  grid-template-columns: 1fr 1f;
+}
 h4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
   color: #505B6C;
+}
+.btn-icons, .btn-container {
+  display:flex;
+  flex-direction: column;
+  float:left;
 }
 .nav-btn {
   text-align: left;
