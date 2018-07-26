@@ -1,0 +1,30 @@
+main {
+}
+
+.top-bar {
+  background-color: purple;
+}
+
+.job-description {
+  background-color: red;
+}
+
+.page-labels {
+  background-color: yellow;
+}
+
+.profile-stats {
+  background-color: orange;
+}
+
+.content-divider {
+  background-color: blue;
+}
+
+.job-profile {
+  background-color: magenta;
+}
+
+.share {
+  background-color: purple;
+}
