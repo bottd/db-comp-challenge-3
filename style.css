@@ -1,10 +1,10 @@
 body {
   box-sizing: border-box;
   display:grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 175px  1fr;
 }
 nav {
-  display:flex;
+  wrodsflex;
   flex-direction: column;
   background-color: #374050;
   color: #A9B2C2;
@@ -32,10 +32,25 @@ h4 {
   grid-column-end: 3;
   color: #505B6C;
 }
-.btn-icons, .btn-container {
+.btn-container {
   display:flex;
   flex-direction: column;
   float:left;
+}
+.btn-container i{
+  margin-right:6px;
+}
+.fa-check-square {
+  color:#E7D449;
+}
+.design-box {
+  color:#58B3F4;
+}
+.executive-box {
+  color:#DB3763;
+}
+.hr-box {
+  color:#4BA68B;
 }
 .nav-btn {
   text-align: left;
