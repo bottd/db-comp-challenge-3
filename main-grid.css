@@ -1,0 +1,42 @@
+main {
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.top-bar {
+  gridr-column-start: 1;
+  grid-column-end: 3;
+  background-color: purple;
+}
+
+.job-description {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: red;
+}
+
+.page-labels {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: yellow;
+}
+
+.profile-stats {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: orange;
+}
+
+.content-divider {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: blue;
+}
+
+.job-profile {
+  background-color: magenta;
+}
+
+.share {
+  background-color: purple;
+}
