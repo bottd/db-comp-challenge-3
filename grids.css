@@ -20,6 +20,11 @@ main {
   grid-template-rows: 90px 1fr;
 }
 
+.top-bar {
+  display: grid;
+  grid-template-columns: 90px 90px 1fr 90px 90px 90px;
+}
+
 .top-bar, .job-description, .page-labels, .profile-stats, .content-divider {
   grid-column-start: 1;
   grid-column-end: 3;
