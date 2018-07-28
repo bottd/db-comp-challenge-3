@@ -1,5 +1,48 @@
 .top-bar {
-  background-color: purple;
+  background-color: #FFF;
+  border-bottom: 1px solid #8D949C;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  margin: 0;
+  height: 90px;
+  width: 90px;
+  font-size: 24px;
+}
+
+.menu-button:hover {
+  background-color: #4AA3F3;
+}
+
+.menu-button:hover i {
+  color: #FFF;
+}
+
+.border-right {
+  border-right: 1px solid #8D949C;
+}
+
+.fa-caret-left {
+  color: #4AA3F2;
+  margin-right: 2px;
+}
+
+.fa-search, .fa-user-plus, .fa-calendar-alt, .fa-th {
+  background: none;
+  font-size: 1.5em;
+  color: #8D949C;
+}
+
+input {
+  font-size: 1.5em;
+  border: none;
+  border-bottom: 1px solid #8D949C;
+}
+
+.fa-search {
+  margin: 33px 5px 33px 33px;
 }
 
 .job-description {
