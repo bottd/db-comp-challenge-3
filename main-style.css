@@ -1,3 +1,6 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 .top-bar {
   background-color: #FFF;
   border-bottom: 1px solid #8D949C;
@@ -46,7 +49,47 @@ input {
 }
 
 .job-description {
-  background-color: red;
+  margin: 5% 5% 3% 5%;
+  color: #9FA4AF;
+}
+
+.header-text {
+  float: left;
+}
+
+.header-buttons {
+  float: right;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.open-btn {
+  width: 100px;
+  height: 32px;
+  margin: 5px;
+  border-radius: 50px;
+  border-color: #8D949C;
+  color: #8D949C;
+}
+
+.fa-circle {
+  color: #94BF51;
+  margin-right: 4px;
+}
+
+.header-btn {
+  height: 32px;
+  width: 32px;
+  margin: 5px;
+  border-radius: 50px;
+  border-color: #8D949C;
+  color: #8D949C;
+}
+
+
+h1 {
+  color: #898A8F;
 }
 
 .page-labels {
