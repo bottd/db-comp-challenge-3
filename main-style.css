@@ -93,7 +93,21 @@ h1 {
 }
 
 .page-labels {
-  background-color: yellow;
+  display: flex;
+  margin-left: 5%;
+}
+
+.page-labels button {
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 15px;
+  margin-right: 3%;
+  color: #9FA4AF;
+}
+
+.page-labels button:hover {
+  color: #000;
+  border-color: #49A7E9;
 }
 
 .profile-stats {
