@@ -1,6 +1,11 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+main {
+  background-color: #EBF1F5;
+}
+
 .top-bar {
   background-color: #FFF;
   border-bottom: 1px solid #8D949C;
@@ -49,7 +54,8 @@ input {
 }
 
 .job-description {
-  margin: 5% 5% 3% 5%;
+  background-color: #FFF;
+  padding: 5% 5% 3% 5%;
   color: #9FA4AF;
 }
 
@@ -93,8 +99,9 @@ h1 {
 }
 
 .page-labels {
+  background-color: #FFF;
   display: flex;
-  margin-left: 5%;
+  padding-left: 5%;
 }
 
 .page-labels button {
@@ -111,7 +118,25 @@ h1 {
 }
 
 .profile-stats {
-  background-color: orange;
+  display: flex;
+  padding: 5% 5% 0 5%;
+}
+
+.pie-charts, .bar-graph {
+  display: flex;
+  flex-direction: column;
+}
+
+.pie-charts button, .bar-graph button {
+  margin: auto;
+  border-radius: 50px;
+  width: 250px;
+  background-color: #FFF;
+  color: #898A8F;
+}
+
+.bar-graph button {
+  width: 150px;
 }
 
 .content-divider {
@@ -125,3 +150,71 @@ h1 {
 .share {
   background-color: purple;
 }
+
+/* Style Circle graphs */
+svg {
+  height: 207px;
+  width: 200px;
+  font-size: 1px;
+}
+
+.graph-label {
+  font-size: 5px;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.purple .circle {
+  stroke: #A66EAE;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.percentage .graph-label{
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+
