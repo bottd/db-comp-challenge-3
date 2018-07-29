@@ -140,7 +140,21 @@ h1 {
 }
 
 .content-divider {
-  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2% 5% 2% 5%;
+}
+
+.content-divider button {
+  margin: 1%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+hr {
+  width: 49%;
 }
 
 .job-profile {
