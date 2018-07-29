@@ -143,7 +143,7 @@ h1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 2% 5% 2% 5%;
+  padding: 2% 5% 4% 5%;
 }
 
 .content-divider button {
@@ -158,7 +158,12 @@ hr {
 }
 
 .job-profile {
-  background-color: magenta;
+  padding: 5% 5% 0 5%;
+}
+
+.job-description-input {
+  color: #FFF;
+  background-color: #000;
 }
 
 .share {
