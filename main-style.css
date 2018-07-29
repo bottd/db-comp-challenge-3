@@ -167,7 +167,14 @@ hr {
 }
 
 .share {
-  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  padding: 13% 17% 0 0;
+}
+
+.share-link {
+  display:flex;
+  flex-direction: row;
 }
 
 /* Style Circle graphs */
