@@ -167,7 +167,67 @@ hr {
 }
 
 .share {
-  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  padding: 15% 17% 0 0;
+}
+
+.share-link {
+  display:flex;
+  flex-direction: row;
+}
+
+.job-profile .section-top {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #727E93;
+  color: #FFF;
+  border: none;
+}
+
+.job-profile h5, .job-profile p {
+  margin: 0;
+  background-color: #FFF;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+
+.baby-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+.share-btn {
+  height: 40px;
+  margin-bottom: 8%;
+  color: #FFF;
+  font-size: 16px;
+  border: none;
+}
+
+.share-facebook {
+  background-color: #5373BD;
+}
+
+.share-twitter {
+  background-color: #49A7E9;
+}
+
+.share-linkedin {
+  background-color: #3780B7;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+.link-description {
+  font-size: 14px;
+}
+
+.link-text {
 }
 
 /* Style Circle graphs */
