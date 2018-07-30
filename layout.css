@@ -60,7 +60,7 @@ main {
   align-items: center;
 }
 
-.share-link {
+.share-link, .pie-flex {
   display:flex;
   flex-direction: row;
 }
