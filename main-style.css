@@ -1,5 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 5%;
+  background-color: #ECF1F5;
 }
 
 main {
@@ -187,6 +189,11 @@ hr {
   border: none;
 }
 
+.fa-facebook-f, .fa-twitter, .fa-linkedin {
+  float: left;
+  padding-left: 3%;
+}
+
 .share-facebook {
   background-color: #5373BD;
 }
@@ -224,4 +231,8 @@ h2 {
   height: 40px;
   width: 30%;
   border: none;
+}
+
+.email-text {
+  width:100%;
 }
