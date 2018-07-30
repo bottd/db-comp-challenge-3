@@ -34,3 +34,34 @@ main {
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
+
+.header-text {
+  float: left;
+}
+
+.header-buttons {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.page-labels, .profile-stats {
+  display: flex;
+}
+
+.pie-charts, .bar-graph, .share {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-divider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.share-link {
+  display:flex;
+  flex-direction: row;
+}
+
