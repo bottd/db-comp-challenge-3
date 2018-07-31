@@ -9,12 +9,25 @@ nav section {
   display: flex;
   flex-direction: column;
   margin: 4%;
+  border-bottom: 3px solid #323949;
 }
 
 .profile-pic{
   margin: auto;
+  margin-top: 25px;
   border-radius: 50%;
   width: 65%;
+}
+
+.nav-btn i {
+  width: 25px;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nav-btn:hover{
+  background-color: #323949;
 }
 
 h3 {
