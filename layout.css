@@ -4,14 +4,9 @@ body {
   grid-template-columns: 250px 1fr;
 }
 
-.main-nav, .admin-nav, .categories-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 h4 {
-  grid-column-start: 1;
   grid-column-end: 3;
+  grid-column-start: 1;
 }
 
 main {
@@ -25,9 +20,14 @@ main {
   grid-template-columns: 90px 90px 1fr 90px 90px 90px;
 }
 
+.profile-stats {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
 .top-bar, .job-description, .page-labels, .profile-stats, .content-divider {
-  grid-column-start: 1;
   grid-column-end: 3;
+  grid-column-start: 1;
 }
 
 .job-profile {
@@ -40,13 +40,18 @@ main {
 }
 
 .header-buttons {
-  float: right;
-  display: flex;
   align-items: center;
+  display: flex;
+  float: right;
 }
 
-.page-labels, .profile-stats {
+.page-labels{
   display: flex;
+}
+
+.flex-btn {
+  display: flex;
+  align-content: center;
 }
 
 .pie-charts, .bar-graph, .share {
@@ -55,9 +60,9 @@ main {
 }
 
 .content-divider {
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
 }
 
 .share-link, .pie-flex {

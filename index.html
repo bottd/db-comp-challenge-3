@@ -1,12 +1,13 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="layout.css">
     <link rel="stylesheet" type="text/css" href="nav-style.css">
     <link rel="stylesheet" type="text/css" href="main-style.css">
-    <link rel="stylesheet" type="text/css" href="layout.css">
   </head>
   <body>
     <nav>
@@ -80,9 +81,15 @@
       <section class="profile-stats">
         <article class="pie-charts">
           <div class="pie-flex">
-            <div class="pie pie1"></div>
-            <div class="pie pie2"></div>
-            <div class="pie pie3"></div>
+            <div class="chart-container">
+              <div class="chart chart1"><span class="number">3,154</span> Applicants</div>
+            </div>
+            <div class="chart-container">
+              <div class="chart chart2"><span class="number">1,546</span> Interviews</div>
+            </div>
+            <div class="chart-container">
+              <div class="chart chart3"><span class="number">912</span> Forwards</div>
+            </div>
           </div>
           <button>TOTALS - Out of 5,231 views</button>
         </article>
@@ -97,9 +104,11 @@
         <hr>
       </section>
       <section class="job-profile">
-        <h5 class="section-top">Job Description</h5>
-        <div class="btn-container">
-          <button class="section-top"><i class="fas fa-pencil-alt"></i>Edit</button>
+        <div class="flex-container">
+          <h5 class="section-top">Job Description</h5>
+        </div>
+        <div class="section-top flex-btn">
+          <button class="edit-btn"><i class="fas fa-pencil-alt"></i>Edit</button>
         </div>
         <h5>Position Title</h5>
         <p>Customer Service Representative</p>
