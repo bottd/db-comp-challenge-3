@@ -4,46 +4,62 @@ nav {
   background-color: #374050;
   color: #A9B2C2;
 }
+
 nav section {
   display: flex;
   flex-direction: column;
   margin: 4%;
 }
+
 .profile-pic{
   margin: auto;
   border-radius: 50%;
   width: 65%;
 }
+
 h3 {
   text-align:center;
   font-size: 15px;
 }
+
 h4 {
   color: #505B6C;
 }
+
 .btn-container {
   display:flex;
   flex-direction: column;
   float:left;
 }
+
 .btn-container i{
   margin-right:6px;
 }
+
 .fa-check-square {
   color:#E7D449;
 }
+
 .design-box {
   color:#58B3F4;
 }
+
 .executive-box {
   color:#DB3763;
 }
+
 .hr-box {
   color:#4BA68B;
 }
+
 .nav-btn {
   text-align: left;
   border: none;
   color: #A9B2C2;
   background-color: #374050;
+}
+
+.nav-btn .fa-calendar-alt {
+  font-size: 1em;
+  color: #A9B2C2;
 }

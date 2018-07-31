@@ -22,11 +22,12 @@ main {
   font-size: 24px;
 }
 
-.menu-button:hover {
+.menu-button:hover, .open-btn:hover, .header-btn:hover{
   background-color: #4AA3F3;
+  color: #FFF;
 }
 
-.menu-button:hover i {
+.menu-button:hover i, .open-btn:hover i{
   color: #FFF;
 }
 
@@ -115,12 +116,79 @@ h1 {
   padding: 5% 5% 0 5%;
 }
 
+.pie-charts {
+  padding-top: 2%;
+}
+
 .pie-charts button, .bar-graph button {
   margin: auto;
   border-radius: 50px;
   width: 250px;
   background-color: #FFF;
   color: #898A8F;
+}
+.chart-container {
+  margin: auto;
+  position:relative;
+  display: inline-block;
+}
+
+.chart {
+  color: #BAC0C6;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  text-align: center;
+  border: 15px solid #DDE4E8;
+}
+
+.chart .number {
+  color: #6D757E;
+  line-height: 2;
+  font-size: 2em;
+}
+
+.chart1::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 120px;
+  width: 120px;
+  border: 15px solid #61B8B8;
+  border-radius: 50%;
+  border-top:  15px solid transparent;
+}
+
+.chart2::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 120px;
+  width: 120px;
+  border: 15px solid #47A1F2;
+  border-radius: 50%;
+  border-top:  15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+
+.chart3::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 120px;
+  width: 120px;
+  border: 15px solid #A66AA3;
+  border-radius: 50%;
+  border-top: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.bar-chart {
+  width: 100%;
 }
 
 .bar-graph button {
@@ -165,14 +233,22 @@ hr {
 }
 
 .job-profile h5, .job-profile p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 99%;
   margin: auto;
   text-align: center;
   background-color: #FFF;
+  color: #AFB3B7;
   border: none;
   border-bottom: 1px solid #8D949C;
   border-top: 1px solid #8D949C;
+}
+
+.edit-btn {
+  height: 32px;
 }
 
 .baby-pic {
@@ -236,3 +312,41 @@ h2 {
 .email-text {
   width:100%;
 }
+
+@media screen and (max-width: 1150px) {
+  .job-profile, .share {
+    width: 70%;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 5%;
+    grid-column-end: 3;
+    grid-column-start: 1;
+  }
+
+  .profile-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .bar-chart {
+    margin: auto;
+    width: 70%;
+  }
+
+  .header-text {
+    width: 37%;
+  }
+
+  .pie-charts {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  nav {
+    display: none;
+  }
+
+  body {
+    grid-template-columns: 1fr;
+  }
