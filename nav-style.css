@@ -9,12 +9,20 @@ nav section {
   display: flex;
   flex-direction: column;
   margin: 4%;
+  border-bottom: 3px solid #000;
 }
 
 .profile-pic{
   margin: auto;
+  margin-top: 25px;
   border-radius: 50%;
   width: 65%;
+}
+
+.nav-btn i {
+  width: 25px;
+  margin: 0;
+  margin-bottom: 9px;
 }
 
 h3 {
