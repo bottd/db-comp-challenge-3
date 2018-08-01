@@ -12,6 +12,10 @@ main {
   border-bottom: 1px solid #8D949C;
 }
 
+.search2 {
+  display:none;
+}
+
 .menu-button {
   background: none;
   border: none;
@@ -390,6 +394,10 @@ h2 {
   .job-profile .section-top {
     height: 100px;
   }
+
+  .job-profile .main-text-head {
+    height: 200px;
+  }
 }
   @media screen and (max-width: 750px) {
     .top-bar {
@@ -444,6 +452,8 @@ h2 {
     }
 
     .job-profile .main-text-head {
+      grid-column-start: 1;
+      grid-column-end: 3;
       padding-left: 5%;
       height: 100px;
       box-sizing: border-box;
@@ -468,10 +478,20 @@ h2 {
     }
 
     input {
-      width: 99%;
+      display: none;
+    }
+
+    .search2 {
+      display: inline-block;
+      width: 98%;
     }
 
     .menu-button {
       background-color: #FFF;
+      border-bottom: 1px solid #8D949C;
+    }
+
+    .job-profile .main-text {
+      height: 250px;
     }
   }
