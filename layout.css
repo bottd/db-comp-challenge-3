@@ -50,8 +50,8 @@ main {
 }
 
 .flex-btn {
-  align-content: center;
   display: flex;
+  align-content: center;
 }
 
 .pie-charts, .bar-graph, .share {
