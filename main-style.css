@@ -368,6 +368,18 @@ h2 {
     width: 75%;
     margin: auto;
   }
+
+  .job-profile h5, .job-profile p {
+    height: 100px;
+  }
+
+  .job-profile .main-text, .job-profile .main-text-head {
+    height: 200px
+  }
+
+  .job-profile .section-top {
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 975px) {
@@ -381,22 +393,6 @@ h2 {
 
   .header-text {
     width: 45%;
-  }
-
-  .job-profile h5, .job-profile p {
-    height: 100px;
-  }
-
-  .job-profile .main-text {
-    height: 200px;
-  }
-
-  .job-profile .section-top {
-    height: 100px;
-  }
-
-  .job-profile .main-text-head {
-    height: 200px;
   }
 }
   @media screen and (max-width: 750px) {
