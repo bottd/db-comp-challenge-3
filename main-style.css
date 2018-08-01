@@ -1,6 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif;
   background-color: #ECF1F5;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -19,10 +19,10 @@ main {
 .menu-button {
   background: none;
   border: none;
-  margin: 0;
-  height: 90px;
-  width: 90px;
   font-size: 24px;
+  height: 90px;
+  margin: 0;
+  width: 90px;
 }
 
 .menu-button:hover, .open-btn:hover, .header-btn:hover{
@@ -45,14 +45,14 @@ main {
 
 .fa-search, .fa-user-plus, .fa-calendar-alt, .fa-th {
   background: none;
-  font-size: 1.5em;
   color: #8D949C;
+  font-size: 1.5em;
 }
 
 input {
-  font-size: 1.5em;
-  border: none;
   border-bottom: 1px solid #8D949C;
+  border: none;
+  font-size: 1.5em;
 }
 
 .fa-search {
@@ -61,8 +61,8 @@ input {
 
 .job-description {
   background-color: #FFF;
-  padding: 5% 5% 3% 5%;
   color: #9FA4AF;
+  padding: 5% 5% 3% 5%;
 }
 
 .header-buttons {
@@ -70,12 +70,12 @@ input {
 }
 
 .open-btn {
-  width: 100px;
+  border-color: #8D949C;
+  border-radius: 50px;
+  color: #8D949C;
   height: 32px;
   margin: 5px;
-  border-radius: 50px;
-  border-color: #8D949C;
-  color: #8D949C;
+  width: 100px;
 }
 
 .fa-circle {
@@ -84,12 +84,12 @@ input {
 }
 
 .header-btn {
-  height: 32px;
-  width: 32px;
-  margin: 5px;
-  border-radius: 50px;
   border-color: #8D949C;
+  border-radius: 50px;
   color: #8D949C;
+  height: 32px;
+  margin: 5px;
+  width: 32px;
 }
 
 
@@ -103,17 +103,17 @@ h1 {
 }
 
 .page-labels button {
-  border: none;
-  border-bottom: 3px solid transparent;
-  padding-bottom: 15px;
-  margin-right: 3%;
-  color: #9FA4AF;
   background-color: #FFF;
+  border-bottom: 3px solid transparent;
+  border: none;
+  color: #9FA4AF;
+  margin-right: 3%;
+  padding-bottom: 15px;
 }
 
 .page-labels button:hover {
-  color: #000;
   border-color: #49A7E9;
+  color: #000;
 }
 
 .profile-stats {
@@ -125,70 +125,70 @@ h1 {
 }
 
 .pie-charts button, .bar-graph button {
-  margin: auto;
-  border-radius: 50px;
-  width: 250px;
   background-color: #FFF;
+  border-radius: 50px;
   color: #898A8F;
+  margin: auto;
+  width: 250px;
 }
 .chart-container {
+  display: inline-block;
   margin: auto;
   position:relative;
-  display: inline-block;
 }
 
 .chart {
+  border-radius: 50%;
+  border: 15px solid #DDE4E8;
   color: #BAC0C6;
   height: 120px;
-  width: 120px;
-  border-radius: 50%;
   text-align: center;
-  border: 15px solid #DDE4E8;
+  width: 120px;
 }
 
 .chart .number {
   color: #6D757E;
-  line-height: 2;
   font-size: 2em;
+  line-height: 2;
 }
 
 .chart1::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 120px;
-  width: 120px;
-  border: 15px solid #61B8B8;
   border-radius: 50%;
   border-top:  15px solid transparent;
+  border: 15px solid #61B8B8;
+  content: '';
+  height: 120px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 120px;
 }
 
 .chart2::before {
-  content: '';
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 120px;
-  width: 120px;
-  border: 15px solid #47A1F2;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid transparent;
   border-radius: 50%;
   border-top:  15px solid transparent;
-  border-left: 15px solid transparent;
-  border-bottom: 15px solid transparent;
+  border: 15px solid #47A1F2;
+  content: '';
+  height: 120px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 120px;
 }
 
 .chart3::before {
+  border-radius: 50%;
+  border-right: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border: 15px solid #A66AA3;
   content: '';
+  height: 120px;
+  left: 0px;
   position: absolute;
   top: 0px;
-  left: 0px;
-  height: 120px;
   width: 120px;
-  border: 15px solid #A66AA3;
-  border-radius: 50%;
-  border-top: 15px solid transparent;
-  border-right: 15px solid transparent;
 }
 
 .bar-chart {
@@ -204,10 +204,10 @@ h1 {
 }
 
 .content-divider button {
+  border-radius: 50px;
+  height: 30px;
   margin: 1%;
   width: 30px;
-  height: 30px;
-  border-radius: 50px;
 }
 
 hr {
@@ -219,8 +219,8 @@ hr {
 }
 
 .job-description-input {
-  color: #FFF;
   background-color: #000;
+  color: #FFF;
 }
 
 .share {
@@ -228,27 +228,27 @@ hr {
 }
 
 .job-profile .section-top {
-  margin: 0;
-  height: 100%;
-  width: 100%;
   background-color: #727E93;
-  color: #FFF;
   border: none;
+  color: #FFF;
+  height: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 .job-profile h5, .job-profile p {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 99%;
-  margin: auto;
-  text-align: center;
   background-color: #FFF;
-  color: #AFB3B7;
-  border: none;
   border-bottom: 1px solid #8D949C;
   border-top: 1px solid #8D949C;
+  border: none;
+  color: #AFB3B7;
+  display: flex;
+  height: 99%;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 100%;
 }
 
 .job-profile h5 {
@@ -272,17 +272,17 @@ hr {
 }
 
 .baby-pic {
+  border-radius: 50px;
   height: 40px;
   width: 40px;
-  border-radius: 50px;
 }
 
 .share-btn {
-  height: 40px;
-  margin-bottom: 8%;
+  border: none;
   color: #FFF;
   font-size: 16px;
-  border: none;
+  height: 40px;
+  margin-bottom: 8%;
 }
 
 .fa-facebook-f, .fa-twitter, .fa-linkedin {
@@ -312,21 +312,21 @@ h2 {
 
 .link-text {
   background-color: #FFF;
-  line-height: 40px;
-  width: 70%;
+  border: none;
   height: 40px;
+  line-height: 40px;
   margin: 0;
   padding-left: 3%;
-  border: none;
+  width: 70%;
 }
 
 .copy-link {
   background-color: #68B7C1;
-  color: #FFF;
-  line-height: 40px;
-  height: 40px;
-  width: 30%;
   border: none;
+  color: #FFF;
+  height: 40px;
+  line-height: 40px;
+  width: 30%;
 }
 
 .email-text {
@@ -342,13 +342,13 @@ h2 {
 }
 
 @media screen and (max-width: 1150px) {
-  .job-profile, .share {
-    width: 70%;
-    padding: 0;
-    margin: auto;
-    margin-bottom: 5%;
     grid-column-end: 3;
     grid-column-start: 1;
+    margin-bottom: 5%;
+    margin: auto;
+    padding: 0;
+    width: 70%;
+  .job-profile, .share {
   }
 
   .profile-stats {
@@ -365,8 +365,8 @@ h2 {
   }
 
   .pie-charts {
-    width: 75%;
     margin: auto;
+    width: 75%;
   }
 
   .job-profile h5, .job-profile p {
@@ -383,8 +383,8 @@ h2 {
 }
 
 @media screen and (max-width: 975px) {
-  nav {
     display: none;
+  nav {
   }
 
   body {
@@ -396,8 +396,8 @@ h2 {
   }
 }
   @media screen and (max-width: 750px) {
-    .top-bar {
       grid-template-columns: 80px 80px 1fr 80px 80px 80px;
+    .top-bar {
     }
 
     .page-labels button {
@@ -420,8 +420,8 @@ h2 {
   }
 
   @media screen and (max-width: 650px) {
-    .user-plus, .calendar-alt {
       display: none;
+    .user-plus, .calendar-alt {
     }
 
     .top-bar {
@@ -429,13 +429,13 @@ h2 {
     }
 
     .pie-flex {
-      width: 360px;
       margin: auto;
+      width: 360px;
     }
 
     .chart, .chart1::before, .chart2::before, .chart3::before {
-      width: 100px;
       height: 100px;
+      width: 100px;
     }
 
     .job-profile {
@@ -471,6 +471,7 @@ h2 {
     .chart1::before, .chart2::before, .chart3::before {
       height: 150px;
       width: 150px;
+    .pie-flex {
     }
 
     input {
@@ -481,7 +482,7 @@ h2 {
       display: inline-block;
       width: 98%;
     }
-
+      
     .menu-button {
       background-color: #FFF;
       border-bottom: 1px solid #8D949C;
