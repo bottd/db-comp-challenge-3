@@ -104,6 +104,7 @@ h1 {
   padding-bottom: 15px;
   margin-right: 3%;
   color: #9FA4AF;
+  background-color: #FFF;
 }
 
 .page-labels button:hover {
@@ -312,6 +313,14 @@ h2 {
   width:100%;
 }
 
+.fa-sort-down {
+  display:none;
+}
+
+.pie-charts button {
+  margin-top: 25px;
+}
+
 @media screen and (max-width: 1150px) {
   .job-profile, .share {
     width: 70%;
@@ -332,7 +341,7 @@ h2 {
   }
 
   .header-text {
-    width: 37%;
+    width: 39%;
   }
 
   .pie-charts {
@@ -348,4 +357,53 @@ h2 {
 
   body {
     grid-template-columns: 1fr;
+  }
+
+  .header-text {
+    width: 45%;
+  }
+
+  @media screen and (max-width: 750px) {
+    .top-bar {
+      grid-template-columns: 80px 80px 1fr 80px 80px 80px;
+    }
+    .page-labels button {
+      margin-right: 0;
+    }
+    .applicants, .job-board, .interviews, .activity, .broadcast, .notifications {
+      display: none;
+    }
+    .fa-sort-down {
+      display: inline-block;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .user-plus, .calendar-alt {
+      display: none;
+    }
+
+    .top-bar {
+      grid-template-columns: 80px 80px 1fr 80px;
+    }
+
+    .pie-flex {
+      width: 120px;
+      margin: auto;
+    }
+
+    .chart, .chart1::before, .chart2::before, .chart3::before {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .pie-flex {
+      display: block;
+    }
+    
+    .menu-button {
+      background-color: #FFF;
+    }
   }
