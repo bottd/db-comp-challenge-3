@@ -10,6 +10,7 @@ nav section {
   flex-direction: column;
   margin: 4%;
   border-bottom: 3px solid #323949;
+  padding-bottom: 25px;
 }
 
 .profile-pic{

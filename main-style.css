@@ -247,8 +247,24 @@ hr {
   border-top: 1px solid #8D949C;
 }
 
+.job-profile h5 {
+  padding-left: 10%;
+  justify-content: left;
+}
+
+.flex-btn {
+  align-items: center;
+}
+
 .edit-btn {
-  height: 32px;
+  padding: 2%;
+  color: #FFF;
+  background-color: #7D899F;
+  border: none;
+}
+
+.edit-btn i {
+  margin-right: 8px;
 }
 
 .baby-pic {
@@ -363,18 +379,39 @@ h2 {
     width: 45%;
   }
 
+  .job-profile h5, .job-profile p {
+    height: 100px;
+  }
+
+  .job-profile .main-text {
+    height: 200px;
+  }
+
+  .job-profile .section-top {
+    height: 100px;
+  }
+}
   @media screen and (max-width: 750px) {
     .top-bar {
       grid-template-columns: 80px 80px 1fr 80px 80px 80px;
     }
+
     .page-labels button {
       margin-right: 0;
     }
+
     .applicants, .job-board, .interviews, .activity, .broadcast, .notifications {
       display: none;
     }
+
     .fa-sort-down {
       display: inline-block;
+    }
+
+    .header-buttons {
+      display: block;
+      clear: left;
+      float: left;
     }
   }
 
@@ -396,18 +433,44 @@ h2 {
       width: 100px;
       height: 100px;
     }
+
+    .job-profile {
+      grid-template-columns: 1fr 2fr;
+    }
+
+    .job-profile .main-text {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    .job-profile .main-text-head {
+      padding-left: 5%;
+      height: 100px;
+      box-sizing: border-box;
+    }
   }
+
 
   @media screen and (max-width: 520px) {
     .pie-flex {
       display: block;
-      width: 120px;
+      width: 150px;
+    }
+
+    .chart {
+      height: 150px;
+      width: 150px;
+    }
+
+    .chart1::before, .chart2::before, .chart3::before {
+      height: 150px;
+      width: 150px;
     }
 
     input {
       width: 99%;
     }
-    
+
     .menu-button {
       background-color: #FFF;
     }
