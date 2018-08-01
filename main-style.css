@@ -388,7 +388,7 @@ h2 {
     }
 
     .pie-flex {
-      width: 120px;
+      width: 360px;
       margin: auto;
     }
 
@@ -401,6 +401,11 @@ h2 {
   @media screen and (max-width: 520px) {
     .pie-flex {
       display: block;
+      width: 120px;
+    }
+
+    input {
+      width: 99%;
     }
     
     .menu-button {
